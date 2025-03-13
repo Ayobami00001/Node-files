@@ -66,7 +66,7 @@ app.get('/', (req, res) => {
     res.sendFile(__dirname + '/public/index.html');
 });
 
-app.get('/apple1', (req, res) => {
+app.get('/api1', (req, res) => {
     res.send(cities);
 });
 
